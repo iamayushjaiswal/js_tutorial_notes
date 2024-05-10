@@ -12,7 +12,7 @@ const regularUser = {
     fullname: {
         userfullname: {
             firstname: "hitesh",
-            lastname: "choudhary"
+            lastname: "choudhary"//understand this
         }
     }
 }

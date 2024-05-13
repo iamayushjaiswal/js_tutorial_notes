@@ -27,12 +27,12 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
-    if(!username){
+function loginUserMessage(username = "sam"){//previouse code: function loginUserMessage(username), the new code is used to avoid if else or anything and provides default value to the username
+    if(!username){// alternatively if(username===undefined)
         console.log("PLease enter a username");
-        return
+        return//used here to terminate the function
     }
-    return `${username} just logged in`
+    return `${username} just logged in`//it will return undefined if no values are passed which is why we have given a if else statement
 }
 
 // console.log(loginUserMessage("hitesh"))

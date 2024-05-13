@@ -24,7 +24,7 @@ const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = Object.assign({}, obj1, obj2, obj4)// so that the first object ({ })is considered a target and others source
 
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
@@ -66,7 +66,7 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor);//destructuring
 
 // {
 //     "name": "hitesh",

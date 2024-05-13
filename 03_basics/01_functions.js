@@ -55,7 +55,7 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({
+handleObject({//direct object passing
     username: "sam",
     price: 399
 })

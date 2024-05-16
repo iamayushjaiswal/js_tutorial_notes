@@ -1,5 +1,5 @@
 //var c = 300
-let a = 300
+let a = 300// var is usually not used as it is not consistent
 if (true) {
     let a = 10
     const b = 20

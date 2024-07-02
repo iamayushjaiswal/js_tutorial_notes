@@ -11,7 +11,7 @@ if (userEmail) {
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 //truthy values
-// "0", 'false', " ", [], {}, function(){}
+// "0", 'false'(kyunki ye string ke andar hai), " ", [], {}, function(){}
 
 // if (userEmail.length === 0) {
 //     console.log("Array is empty");

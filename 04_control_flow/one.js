@@ -26,7 +26,7 @@ const temperature = 41
 // if (balance > 500) console.log("test"),console.log("test2");
 
 // if (balance < 500) {
-//     console.log("less than 500");
+//     console.log("less than 500");  
 // } else if (balance < 750) {
 //     console.log("less than 750");
     

@@ -46,13 +46,13 @@ if (true) {
 
 console.log(addone(5))
 
-function addone(num){
+function addone(num){//this is a normal function declaration
     return num + 1
 }
 
 
 
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){// this is a variable holding a function, Variables in javascript are very powerful they can hold so many things like functons objects and others
     return num + 2
 }
